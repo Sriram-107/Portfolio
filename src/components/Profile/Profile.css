@@ -1,0 +1,43 @@
+.profile-container {
+  position: relative;
+  top: 5.1rem;
+  z-index: 1;
+  background: #381955;
+  min-height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-container::before {
+  content: "SRIRAM";
+  position: absolute;
+  width: 120%;
+  height: -webkit-fill-available;
+  z-index: -1;
+  font-size: 30rem;
+  opacity: 0.1;
+}
+.profile-container p {
+  color: white;
+  font-size: var(--form-heading-size);
+  text-align: center;
+}
+.name-img {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+.name-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.name-img span {
+  color: var(--white-color);
+  font-size: var(--form-large-heading-size);
+}

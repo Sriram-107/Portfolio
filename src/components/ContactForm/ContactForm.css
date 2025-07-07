@@ -1,0 +1,34 @@
+.contact-form-container h3 {
+  font-size: var(--form-heading-height);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.contact-form label,
+button {
+  margin: 1rem 0rem 0.3rem 0rem;
+  font-size: var(--form-label-size);
+}
+.contact-form-container input,
+textarea {
+  padding: 0.7rem;
+  width: 22rem;
+  border-radius: 10px;
+  border-color: grey;
+  border-width: 1px;
+}
+.contact-form textarea {
+  height: 8rem;
+}
+
+.contact-form button {
+  background: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 11rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: var(--white-color);
+}

@@ -1,0 +1,28 @@
+.info-section {
+  background-color: var(--background-black);
+  color: var(--white-color);
+  min-height: 24rem;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .info-section div h2 {
+    font-size: 3rem;
+    font-family: "Headland One", serif;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,7 @@
+.details-card {
+  padding: 2rem 5rem;
+
+  background-color: var(--white-color);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
