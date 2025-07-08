@@ -19,6 +19,10 @@
   padding-top: 2rem;
 }
 
+.info-text{
+  font-size: var(--form-heading-size);
+}
+
 @media screen and (min-width: 1024px) {
   .info-section div h2 {
     font-size: 3rem;

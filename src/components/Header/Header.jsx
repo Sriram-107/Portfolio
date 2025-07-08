@@ -35,7 +35,7 @@ export default function Header() {
       }
     } else if (currentScrollY === 0) {
       if (scrollDirection !== "none") {
-        setScrollDirection = "none";
+        setScrollDirection("none");
       }
     }
     setLastScrollY(currentScrollY);

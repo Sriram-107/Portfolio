@@ -1,10 +1,14 @@
 import React from "react";
-import Project1 from "../../assets/images/project_1.PNG";
-import Project2 from "../../assets/images/project_2.PNG";
+import { projectDetails } from "../../constants/constants";
 import Card from "../Card/Card";
+import "./ProjectCards.css";
 
 export default function ProjectCards() {
-  return [Project1, Project2].map((element) => {
-    return <Card imageSrc={element} />;
-  });
+  
+  return (
+ <section className="card-flex"> 
+ {projectDetails.map((element) => <Card imageSrc={element.img} projectName={element.projectName} />)}
+ </section>
+  )
+  
 }

@@ -1,0 +1,6 @@
+.card-flex{
+        display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+   
+}

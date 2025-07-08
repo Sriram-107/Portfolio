@@ -13,15 +13,19 @@
   content: "SRIRAM";
   position: absolute;
   width: 120%;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
   z-index: -1;
-  font-size: 30rem;
+  font-size: 50rem;
   opacity: 0.1;
+  top: -5rem;
 }
 .profile-container p {
   color: white;
   font-size: var(--form-heading-size);
   text-align: center;
+  /* padding: 0rem 5rem; */
+  width: 50%;
+  transform: translate(50%, 0%);
 }
 .name-img {
   text-align: center;
@@ -29,6 +33,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  padding-top: 8rem;
   padding-bottom: 2rem;
 }
 .name-img img {
@@ -40,4 +45,25 @@
 .name-img span {
   color: var(--white-color);
   font-size: var(--form-large-heading-size);
+}
+
+.recent-works{
+  padding-top: 7rem;
+  display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recent-works h1{
+  font-size: xxx-large;
+    color: var(--font-color-light-grey);
+}
+.recent-works p{
+      font-size: var(--form-heading-size);
+    color: grey;
+}
+
+.home-project-cards{
+  padding: 2rem;
 }
