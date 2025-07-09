@@ -8,3 +8,8 @@
   min-height: 100vh;
   padding-bottom: 20rem;
 }
+@media only screen and (max-width:1023px) {
+  .main-wrapper{
+        padding-bottom: 14.8rem;
+  }
+}

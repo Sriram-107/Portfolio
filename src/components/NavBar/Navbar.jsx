@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback, memo } from "react";
-import "./navbar.css";
+import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router";

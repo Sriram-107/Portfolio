@@ -9,24 +9,26 @@ header {
   transition: 0.5s;
   cursor: pointer;
 }
-
-.ease-out-left {
-  transform: translateX(-60px);
-  opacity: 0;
-  transition: all 0.5s ease-out;
-}
-.ease-in-left {
-  transform: translateX(60px);
-  opacity: 1;
-  transition: all 0.5s ease-in;
-}
-.ease-out-right {
-  transform: translateX(60px);
-  opacity: 0;
-  transition: all 0.5s ease-out;
-}
-.ease-in-right {
-  transform: translateX(0px);
-  opacity: 1;
-  transition: all 0.5s ease-in;
+@media screen and (min-width:1024px) {
+  
+  .ease-out-left {
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+  .ease-in-left {
+    transform: translateX(60px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+  }
+  .ease-out-right {
+    transform: translateX(60px);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+  .ease-in-right {
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 0.5s ease-in;
+  }
 }
