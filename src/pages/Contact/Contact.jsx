@@ -3,7 +3,7 @@ import InfoCard from "../../components/InfoCard/InfoCard";
 import Footer from "../../components/Footer/Footer";
 import DetailsCard from "../../components/DetailsCard/DetailsCard";
 import Header from "../../components/Header/Header";
-import "./contact.css";
+import "./Contact.css";
 
 export default function Contact() {
   return (

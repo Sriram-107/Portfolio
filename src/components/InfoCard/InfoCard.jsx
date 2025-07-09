@@ -1,6 +1,6 @@
 import React from "react";
 import { TbHomeMove } from "react-icons/tb";
-import "./info_card.css";
+import "./InfoCard.css";
 import { Link } from "react-router";
 export default function InfoCard({ cardInfo, cardText }) {
   return (
