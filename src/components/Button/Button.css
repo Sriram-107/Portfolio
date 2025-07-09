@@ -1,0 +1,30 @@
+.btn-flex{
+   
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+    
+}
+.more-photos-btn{
+    display: flex;
+    justify-content: start;
+    padding: 2rem 0rem;
+
+}
+.btn-flex button{
+     background: white;
+    border-radius: 25px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.btn-flex button:hover{
+    background-color: black;
+    color: white;
+    /* transform: translateY(-10px);
+    display: none; */
+}
+.btn-flex button::after{
+    content: "LOAD MORE";
+    display: none;
+}

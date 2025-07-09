@@ -3,9 +3,12 @@ import "./Profile.css";
 import ProfileImage from "../../assets/images/sriram.png";
 import Card from "../Card/Card";
 import ProjectCards from "../ProjectCards/ProjectCards";
+import useScrollDirection from "../../hooks/UseScroll";
+
 export default function Profile() {
+  const [lastScrollY] = useScrollDirection()
   return (
-    <section className="profile-container">
+    <section className={`profile-container`} style={{ '--pseudo-translateX': `${-lastScrollY}px` }} >
       <section className="name-img">
         <img loading="lazy" src={ProfileImage} alt="Profile Image" />
         <span>Sriram</span>

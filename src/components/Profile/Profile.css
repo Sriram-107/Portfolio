@@ -18,6 +18,8 @@
   font-size: 50rem;
   opacity: 0.1;
   top: -5rem;
+  transform: translateX(var(--pseudo-translateX));
+  transition: transform 0.2s ease-out;
 }
 .profile-container p {
   color: white;

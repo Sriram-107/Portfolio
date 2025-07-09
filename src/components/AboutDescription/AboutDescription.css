@@ -1,0 +1,31 @@
+.description-container{
+        background: white;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+}
+.overlap-image{
+    position: relative;
+    width: 50%;
+    transform: translate(35%, 50%);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.overlap-image img{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+.about-description{
+    font-size: var(--form-label-size);
+    margin-left: 50%;
+    padding-right: 2rem;
+}
+.about-description h1{
+    font-size: var(--form-heading-size);
+    padding-bottom: 1rem;
+}
+.about-description{
+    font-size: var(--form-label-size);
+}

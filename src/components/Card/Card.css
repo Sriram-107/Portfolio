@@ -27,9 +27,11 @@
 }
 .card-info h3{
     font-size: var(--form-heading-size);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
 }
 
 .card:hover .card-info h3{
     transform: translateY(-10px);
+    opacity: 1;
 }
