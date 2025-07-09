@@ -12,10 +12,9 @@
   --form-heading-size: 1.8rem;
   --form-label-size: 1.2rem;
   --form-heading-height: 2.25rem;
+  --mobile-heading-large:2rem;
+  --mobile-label-large:1rem;
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 1024px) {
-  #root {
-  }
-}
+
